@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+
+body  { margin: 0;
+      font-family: Helvetica,Arial,sans-serif;
+      background:url(../img/фон.jpg) center / cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
+.header { padding-top: 20px;}
+      
+
+.header_avatar {
+      border-radius: 40%;
+      width: 300px;
+      height: 300px;
+      }
+
+.header_heart{
+      width: 15px;
+      height: 15px;
+
+      transition:transform .5s ease-in-out, filter .5s ease-in-out;
+      filter: grayscale(1);}
+
+.header_heart:hover { transform: scale(1.2);
+      transition:transform .5s ease-in-out, filter .5s ease-in-out;
+      filter: grayscale(0);}
+
+.header_FIO { text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            font-family: "Helvetica Neue";
+      }
+
+.header_services {color: #4b4b4b;
+      font-size: 16px;
+      line-height: 1.4;
+      margin: 0;
+      }
+
+.for_communication {width: 320px;
+      margin-bottom: 40px;
+      }
+
+.for_communication_me {font-family: "Helvetica Neue";
+      font-size: 24px;
+      line-height: 1.4;
+      margin: 0 0 15px 0;
+      text-align: center;
+      }
+
+.for_communication_name:hover { 
+      color: #e60505; 
+      transition: all .5s ease-in-out; }
+a:hover { color: #3c25bf;}
+
+.for_communication_links {list-style-type: none;
+      background: #e3e2e2;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px 20px 10px;
+      gap: 10px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0;
+      }
+
+.for_communication_tittle, .for_communication_name {
+      font-size: 14px;
+      font-size: 1.4;
+      }
+
+.for_communication_tittle {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px 0px 10px;
+      gap: 30px;
+      border-bottom: 2px solid #891c1c;
+      width: 280px;
+}
+
+.for_communication_tittle:last-child {
+      border-bottom: none;}
+
+.for_communication_tittle,
+.for_communication_tittle:visited { 
+      text-decoration: none;
+      color: #43403e;}
+
+      .for_communication_name { margin: 0;
+      min-width: 100px;}
+
+a {text-decoration: none;
+color: rgb(144, 147, 147);
+}
+
+
+
+footer {
+      margin: 0 0 40px 0;
+    }
+    .button-link {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      width: 300px;
+      background: #737373;
+      border-radius: 20px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: #bdbbbb;
+      text-decoration: none;
+    }
